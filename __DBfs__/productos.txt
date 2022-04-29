@@ -1,0 +1,7 @@
+{
+  "title": "producto 010145545454540",
+  "price": 500,
+  "stock": 50,
+  "description": "description new",
+  "url": "https://via.placeholder.com/200"
+}
