@@ -1,7 +1,7 @@
 {
-  "title": "producto 010145545454540",
+  "title": "producto fino y delicado!",
   "price": 500,
   "stock": 50,
-  "description": "description new",
+  "description": "description delivery de golosinas",
   "url": "https://via.placeholder.com/200"
 }
