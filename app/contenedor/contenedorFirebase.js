@@ -1,4 +1,4 @@
-const {admin, serviceAccount} = require('../config/config')
+const {admin, serviceAccount} = require('../../config/config.js')
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
