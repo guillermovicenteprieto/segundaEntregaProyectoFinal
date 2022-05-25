@@ -14,11 +14,11 @@ class ProductosController{
         res.send(productos)
     }
     
-    async mostrarProducto(req, res){
+    async mostrarProductoId(req, res){
         const producto = await productoDAO.mostrarProducto(req.params.id)
         res.send(producto)
     }
-    
+  
     async actualizarProducto(req, res){
         const producto = await productoDAO.actualizarProducto(req.body, req.params.id)
         res.send(producto)

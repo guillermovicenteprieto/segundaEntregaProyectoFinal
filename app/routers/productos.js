@@ -5,7 +5,7 @@ const route = Router()
 
 route.post('/', productoController.guardarProducto)
 route.get('/', productoController.mostrarProductos)
-route.get('/:id', productoController.mostrarProducto)
+route.get('/:id', productoController.mostrarProductoId)
 route.put('/:id', productoController.actualizarProducto)
 route.delete('/:id', productoController.eliminarProducto)
 
